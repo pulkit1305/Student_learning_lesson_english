@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson Plans</title>
+    <script src="../../js/lib/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+    <script async="" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <style>
+        td {
+            text-align: left;
+        }
+
+        .slideItem ol>li,
+        .accordionItem ol>li {
+            display: block;
+            text-indent: -27px;
+        }
+    </style>
+    <style>
+        td {
+            text-align: left;
+        }
+
+        .slideItem ol>li,
+        .accordionItem ol>li {
+            display: block;
+            text-indent: -27px;
+        }
+
+        ol.a {
+            list-style-type: lower-alpha;
+        }
+    </style>
+</head>
+
+<body class="p3 presentation">
+    <div class="mainContainer">
+        <div class="mode" id="topmodeswitch">
+            <p>
+                <strong><span class="modeText">Teaching</span><br />mode</strong>
+            </p>
+            <label class="switch">
+                <input type="checkbox" checked />
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <header class="headers">
+            <h1>
+                <span class="lNumber">Lesson 89 | Resources</span>
+                <span class="lname">Changes in Position of Equilibrium</span>
+            </h1>
+        </header>
+        <main>
+            <section class="container toc">
+                <div class="mode">
+                    <div><span class="modeText">Planning</span> mode</div>
+                    <label class="switch">
+                        <input type="checkbox" checked />
+                        <span class="slider round"></span>
+                    </label>
+                    <div><span class="modeText">Teaching</span> mode</div>
+                </div>
+                <h1>Resources</h1>
+
+                <h2>Student Book</h2>
+                <button type="button" class="btn yl sb" data-id="1">Student Book pages</button>
+
+                <h2>Starter</h2>
+                <button type="button" class="btn yl resr" data-id="r1">Slideshow: Learning objectives</button>
+                <button type="button" class="btn yl resr" data-id="r2">Slideshow: Key definitions</button>
+                <button type="button" class="btn yl resr" data-id="r3">Slideshow: Reversible reactions and dynamic
+                    equilibrium quiz</button>
+
+                <h2>Teaching session 1</h2>
+                <button type="button" class="btn yl resr" data-id="r4">Slideshow: Position of equilibrium</button>
+                <button type="button" class="btn yl resr" data-id="r5">Worksheet 1</button>
+                <button type="button" class="btn yl resr" data-id="r6">Slideshow: Worksheet 1 answers</button>
+                <button type="button" class="btn yl resr" data-id="r7">Worksheet 2</button>
+
+                <h2>Teaching session 2</h2>
+                <button type="button" class="btn yl resr" data-id="r8">Slideshow: Effect of changing conditions on the
+                    position of equilibrium</button>
+                <button type="button" class="btn yl resr" data-id="r9">Worksheet 3</button>
+                <button type="button" class="btn yl resr" data-id="r10">Slideshow: Worksheet 3 answers</button>
+                <button type="button" class="btn yl resr" data-id="r11">Worksheet 4</button>
+
+                <h2>Challenge</h2>
+                <button type="button" class="btn yl resr" data-id="r12">Question 1</button>
+
+                <h2>End-of-lesson activity</h2>
+                <button type="button" class="btn yl resr" data-id="r13">Slideshow: Exam-style question</button>
+
+                <h2>Homework</h2>
+                <button type="button" class="btn yl resr" data-id="r14">Homework sheet</button>
+
+
+                <h2>Answers</h2>
+                <button type="button" class="btn yl resr" data-id="r15">Answer sheet</button>
+
+            </section>
+
+            <h1 class="tgBanner">Resources</h1>
+
+            <div class="resource" id="resource1">
+                <h2 id="r1">Learning objectives</h2>
+                <div class="slideshowContainer" id="r1a">
+                    <div class="fullScrnHeader"></div>
+                    <div class="expholder">
+                        <button class="expand"></button><button class="collapse"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="slider">
+                        <button class="prev disabled" disabled></button>
+                        <div class="slideItems">
+                            <div class="slideItem active">
+                                <h2>Learning objectives</h2>
+                                <p>In this lesson, students will learn to:</p>
+                                <ul>
+                                    <li>explain the term position of equilibrium</li>
+                                    <li>explain how a change in temperature will affect the position of equilibrium</li>
+                                    <li>explain how a change in pressure may affect the position of equilibrium</li>
+                                    <li>explain the change in position of equilibrium, if any, as temperature and
+                                        pressure are altered.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="next disabled" disabled></button>
+                    </div>
+                    <div class="indicators">
+                        <div class="slideno"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="resource" id="resource2">
+                <h2 id="r2">Key definitions</h2>
+                <div class="slideshowContainer" id="r2a">
+                    <div class="fullScrnHeader"></div>
+                    <div class="expholder">
+                        <button class="expand"></button><button class="collapse"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="slider">
+                        <button class="prev disabled" disabled></button>
+                        <div class="slideItems">
+                            <div class="slideItem active">
+                                <h2>Key definitions</h2>
+
+                                <ul>
+                                    <li><strong>position of equilibrium:</strong> a reference to the proportion of the
+                                        various things in an equilibrium mixture; if the position of equilibrium of a
+                                        reaction lies towards the right, the equilibrium mixture contains a higher
+                                        proportion of products than reactants</li>
+                                    <li><strong>pressure:</strong> the force acting on something per unit area; pressure
+                                        has the SI unit of Pa (N/m<sup>2</sup>) and is caused by molecules hitting the
+                                        wall of their container</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="next disabled" disabled></button>
+                    </div>
+                    <div class="indicators">
+                        <div class="slideno"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="resource" id="resource3">
+                <h2 id="r3">Starter</h2>
+                <div class="slideshowContainer" id="r3a">
+                    <div class="fullScrnHeader"></div>
+                    <div class="expholder">
+                        <button class="expand"></button><button class="collapse"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="slider">
+                        <button class="prev disabled" disabled></button>
+                        <div class="slideItems">
+                            <div class="slideItem active">
+                                <h2>Reversible reactions and dynamic equilibrium quiz</h2>
+                                <p>Key words:</p>
+
+                                <table border="0">
+
+                                    <tbody>
+                                        <tr>
+                                            <td>anhydrous</td>
+                                            <td>closed system</td>
+                                            <td>dynamic equilibrium</td>
+                                        </tr>
+                                        <tr>
+                                            <td>hydrated</td>
+                                            <td>open system</td>
+                                            <td>reversible reaction</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <button class="next disabled" disabled></button>
+                    </div>
+                    <div class="indicators">
+                        <div class="slideno"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="resource" id="resource4">
+                <h2 id="r4">Teaching session 1</h2>
+                <div class="slideshowContainer" id="r4a">
+                    <div class="fullScrnHeader"></div>
+                    <div class="expholder">
+                        <button class="expand"></button><button class="collapse"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="slider">
+                        <button class="prev disabled" disabled></button>
+                        <div class="slideItems">
+                            <div class="slideItem active">
+                                <h2>Position of equilibrium</h2>
+                                <p>Example reaction: A + B &#8652; 2C + 2D</p>
+                            </div>
+                            <div class="slideItem">
+
+                                <p>Example reaction: <span style="margin-left: 565px;">A + B &#8652; 2C + 2D</span></p>
+                                <p>The forward (left to right) reaction is: <span style="margin-left: 300px;">A + B → 2C
+                                        + 2D</span></p>
+                                <p>The reverse (right to left) reaction is: <span style="margin-left: 270px;">2C + 2D →
+                                        A + B</span></p>
+                            </div>
+                            <div class="slideItem">
+
+                                <p><strong>Shifting position of equilibrium</strong></p>
+
+                                <figure class="image"
+                                    style="display:table; border:0px solid #dee2e6; max-width:100%; clear:both; margin: 0 auto; text-align:center;">
+                                    <img src="assets/img/image1.png" width="100%;" />
+                                </figure>
+                            </div>
+                            <div class="slideItem">
+
+                                <figure class="image"
+                                    style="display:table; border:0px solid #dee2e6; max-width:100%; clear:both; margin: 0 auto; text-align:center;">
+                                    <img src="assets/img/image2.png" width="100%;" />
+                                </figure>
+                            </div>
+                        </div>
+                        <button class="next disabled" disabled></button>
+                    </div>
+                    <div class="indicators">
+                        <div class="slideno"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="resource" id="resource5">
+                <h2 id="r5">Student work 1</h2>
+                <a class="downloadFile" href="#" file="assets/docs/IG_Chemistry_Lesson89_Worksheet1.docx">Worksheet
+                    1</a>
+            </div>
+
+
+            <div class="resource" id="resource6">
+                <h2 id="r6">Student work 1</h2>
+                <div class="slideshowContainer" id="r6a">
+                    <div class="fullScrnHeader"></div>
+                    <div class="expholder">
+                        <button class="expand"></button><button class="collapse"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="slider">
+                        <button class="prev disabled" disabled></button>
+                        <div class="slideItems">
+                            <div class="slideItem active">
+                                <h2>Worksheet 1 answer</h2>
+                                <p>
+                                <ol>
+                                    <li><strong>a</strong>&nbsp;&nbsp;The reaction shows the symbol &#8652; / double
+                                        headed arrow; which means that the reaction can go in both directions.<br />
+                                        &nbsp;&nbsp;<strong>b</strong>&nbsp;&nbsp;(white) solid changes/decomposes to
+                                        colourless gases<br />
+                                        &nbsp;&nbsp;<strong>c</strong>&nbsp;&nbsp;ammonium chloride, hydrogen chloride,
+                                        ammonia<br />
+                                        &nbsp;&nbsp;<strong>d</strong>&nbsp;&nbsp;there are more reactants than
+                                        products, so the equilibrium lies to the left<br />
+                                        &nbsp;&nbsp;<strong>e</strong>&nbsp;&nbsp;As the reactants have reduced, the
+                                        position of equilibrium has shifted towards the right; however, overall, the
+                                        position of equilibrium is still to the left.</li>
+                                    </p>
+                            </div>
+                        </div>
+                        <button class="next disabled" disabled></button>
+                    </div>
+                    <div class="indicators">
+                        <div class="slideno"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="resource" id="resource7">
+                <h2 id="r7">Student work 1 </h2>
+                <a class="downloadFile" href="#" file="assets/docs/IG_Chemistry_Lesson89_Worksheet2.docx">Worksheet
+                    2</a>
+            </div>
+
+            <div class="resource" id="resource8">
+                <h2 id="r8">Teaching session 2</h2>
+                <div class="slideshowContainer" id="r8a">
+                    <div class="fullScrnHeader"></div>
+                    <div class="expholder">
+                        <button class="expand"></button><button class="collapse"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="slider">
+                        <button class="prev disabled" disabled></button>
+                        <div class="slideItems">
+                            <div class="slideItem active">
+                                <h2>Effect of changing conditions on the position of equilibrium</h2>
+                                <p><strong>Changing temperature</strong></p>
+                                <p><u><strong>Increasing temperature</strong></u></p>
+                                <ul>
+                                    <li>Equilibrium position shifts in the direction of the endothermic reaction.</li>
+                                </ul>
+                                <p><u><strong>Decreasing temperature</strong></u></p>
+                                <ul>
+                                    <li>Equilibrium position shifts in the direction of the exothermic reaction.</li>
+                                </ul>
+
+                            </div>
+                            <div class="slideItem">
+
+                                <p><strong>Changing pressure</strong></p>
+                                <p><u><strong>Increasing gas pressure</strong></u></p>
+                                <ul>
+                                    <li>Equilibrium position shifts in the direction that produces fewer gas molecules.
+                                    </li>
+                                    <li>Producing fewer gas molecules reduces pressure.</li>
+                                </ul>
+                                <p><u><strong>Decreasing gas pressure</strong></u></p>
+                                <ul>
+                                    <li>Equilibrium position shifts in the direction that produces more gas molecules.
+                                    </li>
+                                    <li>Producing more gas molecules increases pressure.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="next disabled" disabled></button>
+                    </div>
+                    <div class="indicators">
+                        <div class="slideno"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="resource" id="resource9">
+                <h2 id="r9">Student work 2</h2>
+                <a class="downloadFile" href="#" file="assets/docs/IG_Chemistry_Lesson89_Worksheet3.docx">Worksheet
+                    3</a>
+            </div>
+
+
+            <div class="resource" id="resource10">
+                <h2 id="r10">Student work 2</h2>
+                <div class="slideshowContainer" id="r10a">
+                    <div class="fullScrnHeader"></div>
+                    <div class="expholder">
+                        <button class="expand"></button><button class="collapse"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="slider">
+                        <button class="prev disabled" disabled></button>
+                        <div class="slideItems">
+                            <div class="slideItem active">
+                                <h2>Worksheet 3 answer</h2>
+
+                                <ol>
+                                    <li>
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th style="text-align: left;">Reaction</th>
+                                                    <th style="text-align: left;">Equilibrium shift</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>A(g) &#8652; B(g) + C(g)</td>
+                                                    <td><strong>shift to right</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>A(g) &#8652; B(g) + C(g)</td>
+                                                    <td><strong>shift to left</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>A(g) &#8652; B(g) + C(g)</td>
+                                                    <td><strong>no change</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>A(g) &#8652; B(g) + C(g)</td>
+                                                    <td><strong>shift to left</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3A(g) &#8652; B(g) + C(g)</td>
+                                                    <td><strong>shift to right</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3A(g) &#8652; 2B(g) + C(g)</td>
+                                                    <td><strong>no change</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3A(g) &#8652; 2B(g) + C(g)</td>
+                                                    <td><strong>shift to right</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3A(g) &#8652; B(g) + C(g)</td>
+                                                    <td><strong>shift to left</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3A(g) &#8652; B(g) + 2C(g)</td>
+                                                    <td><strong>no change</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3A(g) &#8652; B(g) + 2C(g)</td>
+                                                    <td><strong>no change</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>A(g) &#8652; B(g) + C(g)</td>
+                                                    <td><strong>shift to right</strong></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </li>
+                                    <li>As the temperature is decreased, the equilibrium shifts to the
+                                        <u><strong>right</strong></u> so the colour gets lighter. This changes brown
+                                        NO<sub>2</sub> molecules into colourless N<sub>2</sub>O<sub>4</sub> molecules as
+                                        this is the exothermic direction, which increases the
+                                        <u><strong>temperature</strong></u>.<br />
+                                        If the pressure is increased, the equilibrium position shifts
+                                        <u><strong>right</strong></u> to form more N<sub>2</sub>O<sub>4</sub> as this
+                                        <u><strong>decreases</strong></u> the pressure again. When this happens, the
+                                        colour gets lighter as N<sub>2</sub>O<sub>4</sub> is
+                                        <u><strong>colourless</strong></u>.</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <button class="next disabled" disabled></button>
+                    </div>
+                    <div class="indicators">
+                        <div class="slideno"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resource" id="resource11">
+                <h2 id="r11">Student work 2</h2>
+                <a class="downloadFile" href="#" file="assets/docs/iG_Chemistry_Lesson89_Worksheet4.docx">Worksheet
+                    4</a>
+            </div>
+
+
+
+
+
+
+            <div class="resource" id="resource12">
+                <h2 id="r12">Challenge</h2>
+                <h4>Question 1</h4>
+                <div class="accordionItem question">
+                    <button class="accordion "><i class="material-icons">check_circle_outline</i>
+                        <span>Question</span></button>
+                    <div class="accbody">
+                        <p>Evaluate the use of high temperatures and pressures for industrial reactions.</p>
+                    </div>
+                </div>
+                <div class="accordionItem solution">
+                    <button class="accordion"><i class="material-icons">check_circle_outline</i>
+                        <span>Solution</span></button>
+                    <div class="accbody">
+                        <p class="notvisible">High temperatures increase the rate of attainment of equilibrium and
+                            rate of reaction but may reduce the equilibrium yield. They may also be too expensive to
+                            be worthwhile. The temperature chosen may be a compromise between yield and
+                            rate.<br /><br />
+                            High pressures increase the rate of attainment of equilibrium and rate of reaction. In
+                            reactions involving reacting gases it may reduce the equilibrium yield, and it may be
+                            too expensive to be worthwhile. The pressure chosen may be a compromise between yield
+                            and rate.
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="resource" id="resource13">
+                <h2 id="r13">End-of-lesson activity</h2>
+
+                <div class="slideshowContainer" id="r13a">
+                    <div class="fullScrnHeader"></div>
+                    <div class="expholder">
+                        <button class="expand"></button><button class="collapse"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="slider">
+                        <button class="prev disabled" disabled></button>
+                        <div class="slideItems">
+                            <div class="slideItem active">
+                                <h2>Exam-style question</h2>
+
+                                <ul>
+                                    <li>The formation of methanol from carbon monoxide and hydrogen is a reversible
+                                        reaction that is exothermic in the forward direction. Explain the effect on the
+                                        position of equilibrium of increasing the temperature of the reaction.</li>
+                                </ul>
+                            </div>
+                            <div class="slideItem">
+                                <p><strong>Answer</strong></p>
+                                <ul>
+                                    <li>The formation of methanol from carbon monoxide and hydrogen is a reversible
+                                        reaction that is exothermic in the forward direction. Explain the effect on the
+                                        position of equilibrium of increasing the temperature of the reaction.</li>
+                                    <li>Increasing the temperature shifts the equilibrium to the left as this is the
+                                        endothermic direction and so reduces the temperature.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="next disabled" disabled></button>
+                    </div>
+                    <div class="indicators">
+                        <div class="slideno"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resource" id="resource14">
+                <h2 id="r14">Homework</h2>
+
+                <a class="downloadFile" href="#" file="assets/docs/IG_Chemistry_Lesson89_Homework.docx">Homework
+                    sheet</a>
+            </div>
+
+
+            <div class="resource" id="resource15">
+                <h2 id="r15">Answer</h2>
+                <p>This document contains answers for all the worksheets in the lesson.</p>
+                <a class="downloadFile" href="#" file="assets/docs/IG_Chemistry_Lesson89_Answers.docx">Answer sheet</a>
+            </div>
+
+
+
+
+
+
+        </main>
+    </div>
+    <button type="button" class="btn bl" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <div class="fulscreenContent">
+        <div class="fulsrcsldshw"></div>
+    </div>
+    <script src="../../js/script.js"></script>
+</body>
+
+</html>

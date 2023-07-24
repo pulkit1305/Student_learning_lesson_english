@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson Plans</title>
+    <script src="../../js/lib/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+    <script async="" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    <script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <style>
+        td {
+            text-align: left;
+        }
+
+        .slideItem ol>li,
+        .accordionItem ol>li {
+            display: block;
+            text-indent: -27px;
+        }
+    </style>
+</head>
+
+<body class="p2">
+    <div class="mainContainer">
+        <header class="headers">
+            <h1>
+                <span class="lNumber">Lesson 88 | Teacher guidance</span>
+                <span class="lname">Equilibrium</span>
+            </h1>
+        </header>
+        <main>
+            <section class="container">
+                <ul>
+                    <li>Worksheets will need to be printed for students in advance of the lesson.</li>
+                    <li>While all care is taken to ensure resource content is in line with cultural sensitivities,
+                        please be aware that it should be reviewed before sharing with students.</li>
+                </ul>
+            </section>
+
+            <div class="buttons">
+                <div class="explandCollapse"> <button type="button" class="btn bl" id="expandAll">Expand all
+                        sections</button>
+                    <button type="button" class="btn bl" id="collapseAll">Collapse all sections</button>
+                </div>
+                <div class="studentbook"><button type="button" class="btn yl sb" data-id="1">Student Book
+                        pages</button></div>
+            </div>
+
+            <div class="accordionItem headings">
+                <button class="accordion">
+                    <h2>
+                        <span>Starter </span>
+                        <span class="setTime">10 minutes</span>
+                    </h2>
+                </button>
+                <div class="accbody">
+                    <div class="bodycontent">
+                        <h4>Reversible processes</h4>
+                        <ul>
+                            <li>Place two clear bowls labelled R and P, on the bench. The one labelled R should be
+                                partly filled with water and the one labelled P should be left empty. Ask a student volunteer to transfer the
+                                water from one bowl to the other using a 250 cm<sup>3</sup> plastic beaker. Pour the
+                                water back into bowl R and ask another student to do the same using a smaller beaker.
+                            </li>
+                            <li>Discuss how the transfer of water models chemical reactions, with reactants (R) changing
+                                into products (P); the bowls representing reactant and products; and the different sized
+                                beakers representing different rates of reaction. Students should be able to see that
+                                this model shows:
+                                <ul class="square">
+                                    <li>A greater volume of water is moved initially, with the water transfer process
+                                        then slowing down. This mimics the rate of a chemical reaction that is faster
+                                        at the beginning and slows down at the end.</li>
+                                    <li>The different sized beakers should transfer water at different rates. The larger
+                                        beaker transfers the water faster than the smaller beaker. This could be linked
+                                        to chemical reactions having different rates due to surface area, concentration,
+                                        temperature or use of a catalyst.</li>
+                                </ul>
+                            </li>
+                            <li>Introduce ideas about reversible processes. Ask students: <em>Can you think of any
+                                    processes which are reversible?</em> (Answer: Typical answers could include melting
+                                chocolate, boiling water, melting ice.) Most of the ideas are likely to be changes of
+                                state and not actually reversible chemical reactions. Explain that chemical reactions
+                                can be reversible, especially if they take place in a closed or sealed container.</li>
+
+
+                            <li>Then use two more volunteers (chosen carefully, as this could be messy) and give each a
+                                plastic beaker of equal size. Ask one student to start transferring water from R into
+                                the empty bowl P, as the other transfers water back again from P into R. At the start,
+                                more water is going from R to P than from P to R, because it is difficult to get a full
+                                beaker of water from a nearly empty bowl. The <strong>forward reaction</strong> is faster than the back
+                                reaction. After some time however, as the forward reaction slows and the <strong>reverse
+                                    reaction</strong> speeds up, the reaction rates will become equal and the amount of water in R
+                                and P will stay the same.</li>
+                            <li>Tell students:
+                                <ul class="square">
+                                    <li><em>This represents a reversible reaction. Equilibrium occurs when equal amounts
+                                            are going both ways.</em></li>
+                                    <li><em>The term &lsquo;<strong>dynamic equilibrium</strong>&rsquo; refers to reversible chemical
+                                            reactions but we will look at this in greater detail during the
+                                            lesson.</em></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordionItem headings">
+                <button class="accordion">
+                    <h2>
+                        <span>Teaching session 1 </span>
+                        <span class="setTime">10 minutes</span>
+                    </h2>
+                </button>
+                <div class="accbody">
+                    <div class="bodycontent">
+                        <h4>Dynamic equilibrium</h4>
+                        <ul>
+                            <li>Tell students:
+                                <ul class="square">
+                                    <li><em>In a reversible reaction, equilibrium is reached when the rate of the forward reaction equals the
+                                            rate of the reverse reaction. </em></li>
+                                    <li><em>Equilibrium can only be reached if the reversible reaction takes place in
+                                            apparatus where the reactants and products cannot escape  (this is known as a <strong>closed system</strong> ).</em></li>
+                                    <li><em>At equilibrium, the volume, concentrations or percentages of each reactant
+                                            and product do not change.</em></li>
+                                    <li><em>A more accurate description is dynamic equilibrium because the reactions are
+                                            still ongoing (dynamic), but the reactants and products stay in balance
+                                            (equilibrium).</em></li>
+                                    <li><em>Dynamic equilibrium only occurs when there is no loss of reactants or
+                                            products.</em></li>
+                                </ul>
+                            </li>
+                            <li>Write the equation on the board: ammonium chloride ⇌ ammonia + hydrogen chloride and display Slide 1 of the slideshow.</li>
+                            <button type="button" class="btn yl res3" data-id="l88p3_r3">Slideshow: Dynamic
+                                equilibrium</button>
+                            
+                            <li>Tell students:
+                                <ul class="square">
+                                    <li><em>This diagram shows a representation of dynamic equilibrium for the thermal
+                                            decomposition of ammonium chloride.</em></li>
+                                </ul>
+                            </li>
+                           
+                                <ul class="square">
+                                    <li><em>Label 1 shows the concentration of ammonium chloride decreasing.</em></li>
+                                    <li><em>Label 2 shows the concentrations of ammonia and hydrogen chloride
+                                            increasing.</em></li>
+                                    <li><em>Label 3 shows when dynamic equilibrium has been reached. What is happening
+                                            at this point in the reaction? </em>(Answer: The forward and backward
+                                        reactions are still occurring but the percentages/amounts/volumes/masses of the
+                                        reactants and products are no longer changing.)</li>
+                                </ul>
+                           
+                        </ul>
+                        
+                        <ul>
+                            <li>Some students may need help with the idea of a &lsquo;system&rsquo; and of closed and
+                                <STRONG>open systems</STRONG>.</li>
+                            <li>It is often useful to consider everyday examples with students, such as the equilibrium
+                                between carbon dioxide gas and dissolved carbon dioxide in a fizzy drink: <br />
+                                CO<sub>2</sub>(g) &#8652; CO<sub>2</sub>(aq). An equilibrium position is achieved when
+                                the stopper is closed (a closed system). Equilibrium cannot be achieved when the stopper
+                                is opened (an open system) as the carbon dioxide can escape and the drink goes
+                                &lsquo;flat&rsquo;.</li>
+                            <li>Tell students:
+                                <ul class="square">
+                                    <li><em>Reactions in school science laboratories tend to be carried out in open
+                                            systems, i.e., in beakers or test tubes without any coverings, so any gases
+                                            could escape meaning equilibrium cannot be achieved.</em></li>
+                                    <li><em>Although many  reactions are reversible, dynamic equilibrium only occurs in
+                                            closed systems, where there is no loss of reactants or products.</em></li>
+                                    <li><em>In an open system, gases could escape and so equilibrium would not be
+                                            achieved.</em></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordionItem headings">
+                <button class="accordion">
+                    <h2>
+                        <span>Student work 1 </span>
+                        <span class="setTime">20 minutes</span>
+                    </h2>
+                </button>
+                <div class="accbody">
+                    <div class="bodycontent">
+                        <h4>Equilibrium role-play</h4>
+                        <ul>
+                            <li>Hand out <strong>Worksheet 1 </strong>individually to students, but then arrange the
+                                class into large groups of approximately seven or eight students.</li>
+                            <li>Tell students:
+                                <ul class="square">
+                                    <li><em>In these groups, you will develop a role-play about a reversible reaction,
+                                            in both an open and a closed system.</em></li>
+                                    <li><em>Your role-play should demonstrate:</em>
+                                        <ul class="square">
+                                            <li><em>what happens in a reversible reaction</em></li>
+                                            <li><em>the difference between an open system and a closed system</em></li>
+                                            <li><em>what happens at equilibrium</em></li>
+                                            <li><em>what it means if this equilibrium lies to the left or to the
+                                                    right.</em></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>Give students a few minutes to plan and practise their role-play and then ask them
+                                to perform it. During the role-play you will need to narrate what is happening to those
+                                students watching.</li>
+                            <li>Once students have completed the role-play, ask them to write in their exercise books an
+                                explanation of what they did and how it demonstrated the four key points outlined above.
+                            </li>
+                        </ul>
+
+                        <button type="button" class="btn yl res3" data-id="l88p3_r4">Worksheet 1</button>
+
+
+                        <h3>Support</h3>
+                        <p>For students who struggle with <strong>Dynamic equilibrium:</strong></p>
+                        <ul>
+                            <li>In <strong>Student work 1</strong>, for the role-play, you may need to provide roles or
+                                suggestions. For example, students could be particles that are be trapped in a closed
+                                system allowing a reversible reaction to take place. Then they could show an open system
+                                where some particles can escape and therefore not return to the original reactants.</li>
+                        </ul>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordionItem headings">
+                <button class="accordion">
+                    <h2>
+                        <span>Teaching session 2 </span>
+                        <span class="setTime">10 minutes</span>
+                    </h2>
+                </button>
+                <div class="accbody">
+                    <div class="bodycontent">
+                        <h4>Interpreting dynamic equilibrium graphs</h4>
+                        <ul>
+                            <li>Display Slide 1 of the slideshow.</li>
+
+                            <button type="button" class="btn yl res3" data-id="l88p3_r5">Slideshow: Dynamic equilibrium
+                                graphs</button>
+
+                            <li>Tell students:
+                                <ul class="square">
+                                    <li><em>The graph represents the heating of ammonium chloride.</em></li>
+                                    <li><em>The reverse reaction [1] gets faster and at the same time the forward
+                                            reaction [2] gets slower.</em></li>
+                                    <li><em>At a certain point in the reaction, [3], both forward and reverse reactions
+                                            are occurring at the same rate.</em></li>
+                                    <li><em>It takes time to get to this point, and it is possible to determine this
+                                            time from the x-axis [4]. This is the time it takes to reach dynamic
+                                            equilibrium.</em></li>
+                                </ul>
+                            </li>
+                            <li>Explain to students: <em>This graph shows equal concentrations of the reactants and
+                                    products at dynamic equilibrium but this is not always the case.</em></li>
+                            <li>Display Slide 2.</li>
+                            <li>Ask students: <em>Can you determine the mixture of reactants and products at dynamic
+                                    equilibrium for this reaction?</em> (Answer: 30% reactants and 70% products)</li>
+                        </ul>
+                      
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordionItem headings">
+                <button class="accordion">
+                    <h2>
+                        <span>Student work 2 </span>
+                        <span class="setTime">5 minutes</span>
+                    </h2>
+                </button>
+                <div class="accbody">
+                    <div class="bodycontent">
+                        <h4>Interpreting dynamic equilibrium graphs</h4>
+                        <ul>
+                            <li>Hand out <strong>Worksheet 2 </strong>individually to students and ask them to complete
+                                the paragraph based on dynamic equilibrium.</li>
+                        </ul>
+                        <button type="button" class="btn yl res3" data-id="l88p3_r6">Worksheet 2</button>
+                        <button type="button" class="btn yl res3" data-id="l88p3_r11">Answer sheet</button>
+
+
+
+                        <h3>Support</h3>
+                        <p>For students who struggle with <strong>Interpreting dynamic equilibrium graphs:</strong></p>
+                        <ul>
+                            <li>In <strong>Student work 2</strong>, hand out <strong>Worksheet 3</strong> instead of
+                                <strong>Worksheet 2</strong>. It contains the same questions, but with
+                               options for each answer. Students need to select the correct word from the
+                                        options for each answer.
+                              
+                                <p>Note: The answers for <strong>Worksheet 3</strong> are the same as those for <strong>Worksheet 2</strong>.</p>
+                            </li>
+                        </ul>
+
+                        <button type="button" class="btn yl res3" data-id="l88p3_r7">Worksheet 3</button></li>
+                        <button type="button" class="btn yl res3" data-id="l88p3_r11">Answer sheet</button></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="accordionItem headings">
+                <button class="accordion">
+                    <h2>
+                        <span>Challenge (optional)</span>
+                        <span class="setTime">10&ndash;15 minutes</span>
+                    </h2>
+                </button>
+                <div class="accbody">
+                    <div class="bodycontent">
+                        <ul>
+                            <li>Display Slide 1 of the slideshow.</li>
+
+                            <button type="button" class="btn yl res3" data-id="l88p3_r8">Slideshow: Challenge</button>
+                            <li>Allow all students completing the Challenge question time to finish, or after the
+                                available time for answering has elapsed, display the answer on Slide 2.</li>
+                        </ul>
+                   
+                    </div>
+                </div>
+            </div>
+            <div class="accordionItem headings">
+                <button class="accordion">
+                    <h2>
+                        <span>End-of-lesson activity </span>
+                        <span class="setTime">5 minutes</span>
+                    </h2>
+                </button>
+                <div class="accbody">
+                    <div class="bodycontent">
+                        <ul>
+                            <li>Display Slide 1 of the slideshow.</li>
+                            <button type="button" class="btn yl res3" data-id="l88p3_r9">Slideshow: Exam-style
+                                question</button>
+                            <li>Ask students to work on their own to complete the questions. They can work in their
+                                exercise books. Allow 3 minutes. There is an extension question for fast workers.</li>
+                            <li>Ask students to swap over their books with their partner.</li>
+                            <li>Display Slide 2, which students should use to mark each other&rsquo;s work.</li>
+                        </ul>
+                      
+                        <ul>
+                            <li>Before returning the books, ask students to consider the answer which they have marked.
+                                Ask students to add a WWW (What Went Well) comment to praise their partner and an EBI
+                                (Even Better If) to help their partner improve their answer.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordionItem headings">
+                <button class="accordion">
+                    <h2>
+                        <span>Homework</span>
+                        <span class="setTime">25 minutes</span>
+                    </h2>
+                </button>
+                <div class="accbody">
+                    <div class="bodycontent">
+                        <ul>
+                            <li>Hand out the<strong> Homework sheet</strong>, which contains questions covering material
+                                on reversible reactions.</li>
+                            <li><strong>Q1</strong> covers the reversible reaction featuring ammonia.</li>
+                            <li><strong>Q2</strong> covers the reversible reaction featuring calcium carbonate.</li>
+                            <li><strong>Q3</strong> covers a reaction that goes to equilibrium.</li>
+                        </ul>
+
+                        <button type="button" class="btn yl res3" data-id="l88p3_r10">Homework sheet</button>
+                        <button type="button" class="btn yl res3" data-id="l88p3_r11">Answer sheet</button>
+
+
+                    </div>
+                </div>
+            </div>
+            <h1 class="tgBanner">Alternative activities</h1>
+            <section class="container">
+                <ul>
+                    <li>These resources can be used if you are splitting the content of this lesson into two sessions.
+                    </li>
+                </ul>
+            </section>
+
+            <div class="accordionItem headings l2headAlter">
+                <button class="accordion">
+                    <h2>
+                        <span>Alternative starter </span>
+                        <span class="setTime">5 minutes</span>
+                    </h2>
+                </button>
+                <div class="accbody">
+                    <div class="bodycontent">
+                        <ul>
+                            <h4>Reaction equations</h4>
+                            <li>Ask students: <em>In your exercise books, write down two or three word and balanced
+                                    equations for any reactions you can remember.</em></li>
+                            <li>Put students into small groups to review their equations, making corrections where
+                                necessary and naming the different types of reactions.</li>
+                            <li>Ask random groups to contribute examples to put on the board and allow students to
+                                comment on the equations written by other groups.</li>
+                            <li>Explain that reactants are the starting materials for the chemical reaction and that the
+                                products are the substances that are produced in the reaction. Some of the products may not be needed or
+                                even wanted. A more efficient chemical reaction will produce fewer waste products. The
+                                arrow does not mean equal like it might do in mathematics. Instead, it means that a
+                                reaction has taken place and one or more substances have changed into something else.
+                            </li>
+                            <li>Tell students: <em>Don&rsquo;t forget that a reaction might be reversible and this would be
+                                    represented by the use of the double half arrow sign.</em></li>
+                            <li>Some students may need to be given examples of reaction equations:
+                                <ul class="redsquare">
+                                    <li>H<sub>2</sub>(g) + N<sub>2</sub>(g) ⇌ NH<sub>3</sub>(g) </li>
+                                        <ul class="redsquare">
+                                            <li>Answer: 3H<sub>2</sub>(g) + N<sub>2</sub>(g) ⇌ 2NH<sub>3</sub>(g)</li>
+                                        </ul>
+                                   
+                                    <li>Mg&thinsp;(s) + O<sub>2</sub>(g) \(\rightarrow\) MgO(s) </li>
+                                        <ul class="redsquare">
+
+                                            <li>Answer: 2Mg(s) + O<sub>2</sub>(g) \(\rightarrow\) 2MgO(s)</li>
+                                        </ul>
+                                   
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordionItem headings l2headAlter">
+                <button class="accordion">
+                    <h2>
+                        <span>Alternative end-of-lesson activity </span>
+                        <span class="setTime">5 minutes</span>
+                    </h2>
+                </button>
+                <div class="accbody">
+                    <div class="bodycontent">
+                        <h4>Quick quiz</h4>
+                        <ul>
+                            <li>Give students mini whiteboards.</li>
+                            <li>Ask students: Write your answer down for each of the following questions:<br /><br />
+                                <ol>
+                                    <li><em>What does the term &lsquo;equilibrium&rsquo; describe? </em>(Answer: A
+                                        position of balance.)</li>
+                                    <li><em>What does the symbol &lsquo;</em><em>&#8652;</em><em>&rsquo; mean? </em>(Answer:
+                                        Reversible reaction)</li>
+                                    <li><em>What is it called when substances cannot enter or leave an observed
+                                            environment, such as a stoppered test tube? </em>(Answer: A closed system)
+                                    </li>
+                                    <li><em>What is it called when </em><em>substances can enter or leave a system, such
+                                            as a reaction inside an unstoppered test tube? </em>(Answer: An open
+                                        system)</li>
+                                </ol>
+                            </li>
+
+                            <li>Ask students to hold up their answer after a count of three before you tell them the
+                                correct answer. This will give a good overview of the class understanding. If they are
+                                not sure or do not have an answer, they should draw a question mark &lsquo;?&rsquo; so
+                                that all students are made to respond. Try and address any issues that show up as they arise.</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <button type="button" class="btn bl" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <script src="../../js/script.js"></script>
+</body>
+
+</html>
