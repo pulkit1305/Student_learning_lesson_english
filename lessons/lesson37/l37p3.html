@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson Plans</title>
+    <script src="../../js/lib/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+    <script async="" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    <script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
+</head>
+
+<body class="p3 presentation">
+    <div class="mainContainer">
+        <div class="mode" id="topmodeswitch">
+            <p><strong><span class="modeText">Teaching</span><br>mode</strong></p>
+            <label class="switch">
+
+                <input type="checkbox" checked>
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <header class="headers">
+            <h1>
+                <span class="lNumber">Lesson 37| Resources</span>
+                <span class="lname">Testing for Negative Ions and Water</span>
+            </h1>
+        </header>
+        <main>
+            <section class="container toc">
+                <div class="mode">
+                    <div><span class="modeText">Planning</span> mode</div>
+                    <label class="switch">
+
+                        <input type="checkbox" checked>
+                        <span class="slider round"></span>
+                    </label>
+                    <div><span class="modeText">Teaching</span> mode</div>
+                </div>
+                <h1>Resources</h1>
+                <ul>
+                    <li>Worksheets will need to be printed for students in advance of the lesson.</li>
+                    <li>While all care is taken to ensure resource content is in line with cultural sensitivities,
+                        please be aware that it should be reviewed before sharing with students.</li>
+                </ul>
+                    <h2>Student Book</h2>
+                    <button type="button" class="btn yl sb" data-id="1">Student Book pages</button>
+                    <h2>Starter</h2>
+                    <button type="button" class="btn yl resr" data-id="r1">Slideshow: Learning objectives</button>
+                    <button type="button" class="btn yl resr" data-id="r2">Slideshow: Key definitions</button>
+    
+                    <h2>Teaching session 1</h2>
+                    <button type="button" class="btn yl resr" data-id="r3">Slideshow: Negative ion tests </button>
+                    <button type="button" class="btn yl resr" data-id="r4">Worksheet 1: Practical method</button>
+                    <button type="button" class="btn yl resr" data-id="r5">Table: Tests for negative ions</button>
+    
+                    <h2>Teaching session 2</h2>
+                    <button type="button" class="btn yl resr" data-id="r6">Slideshow: Testing for water</button>
+                    <button type="button" class="btn yl resr" data-id="r7">Worksheet 2</button>
+                    
+                    <h2>End-of-lesson activity</h2>
+                    <button type="button" class="btn yl resr" data-id="r8">Slideshow: Practice question </button>
+    
+                    <h2>Homework</h2>
+                    <button type="button" class="btn yl resr" data-id="r9">Homework sheet</button>
+                  
+                   
+                    <h2>Answers</h2>
+                    <button type="button" class="btn yl resr" data-id="r10">Answer sheet</button>
+                   
+                </section>
+            
+            <h1 class="tgBanner">Resources</h1>
+            <div class="resource" id="resource1">
+                <h2 class="indentLeft" id="r1">Learning objectives</h2>
+                <div class="slideshowContainer" id="r1a">
+                    <div class="fullScrnHeader"></div>
+                    <div class="expholder">
+                        <button class="expand"></button><button class="collapse"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="slider">
+                        <button class="prev disabled" disabled></button>
+                        <div class="slideItems">
+                            <div class="slideItem active">
+                                <h2>Learning objectives</h2>
+                                <p>In this lesson, students will learn to:</p>
+                                <ul>
+                                    <li>explain why the test for a given ion must be unique to that ion</li>
+                                    <li>recall some metal hydroxide precipitate colours</li>
+                                    <li>describe how to identify metal ions using sodium hydroxide solution</li>
+                                    <li>describe how to identify ammonium ions and ammonia.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="next disabled" disabled></button>
+                    </div>
+                    <div class="indicators">
+                        <div class="slideno"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resource" id="resource2">
+                <h2 class="indentLeft" id="r2">Key definitions</h2>
+                <div class="slideshowContainer" id="r2a">
+                    <div class="fullScrnHeader"></div>
+                    <div class="expholder">
+                        <button class="expand"></button><button class="collapse"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="slider">
+                        <button class="prev disabled" disabled></button>
+                        <div class="slideItems">
+                            <div class="slideItem active">
+                                <h2>Key definitions</h2>
+                                <ul>
+                                    <li><strong>anhydrous: </strong>without water</li>
+                                    <li><strong>carbonate ions: </strong>ions formed by carbon and oxygen</li> 
+                                    <li><strong>halide ions: </strong>ions formed by halogens</li>
+                                    <li><strong>sulfate ions: </strong>ions formed by sulfur and water</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="next disabled" disabled></button>
+                    </div>
+                    <div class="indicators">
+                        <div class="slideno"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resource" id="resource3">
+                <h2 class="indentLeft" id="r3">Teaching session 1</h2>
+                <div class="slideshowContainer" id="r3a">
+                    <div class="fullScrnHeader"></div>
+                    <div class="expholder">
+                        <button class="expand"></button><button class="collapse"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="slider">
+                        <button class="prev disabled" disabled></button>
+                        <div class="slideItems">
+                            <div class="slideItem active">
+                                <h2>Negative ion tests</h2>
+                                <p><strong>Carbonate test</strong></p>
+                                <ol>
+                                    <li>Add a little dilute hydrochloric acid to a test tube containing a small amount of an unknown sample.</li>
+                                    <li>If bubbles are produced, bubble the gas through limewater.</li>
+                                    <li>If the limewater turns cloudy white then carbon dioxide was produced and therefore your sample contained
+                                        carbonate ions.</li>
+                                </ol><br><br>
+                                <figure class="image" style="display:table; border:0px solid #dee2e6; max-width:100%; clear:both; text-align: center;">
+                                    <img src="assets/img/poaig_chemistry_l37_img1.png" width="70%;" />
+                                </figure>
+                            </div><br><br><br>
+                            <div class="slideItem">
+                                <p><strong>Sulfate test</strong></p>
+                                <ol>
+                                <li>Make a solution of the sample with distilled water, add a small amount to a test tube.</li>
+                                <li>Add an equal volume of dilute hydrochloric acid to the sample to remove any other anions present.</li>
+                                <li>Add barium chloride solution.</li>
+                                <li>If a white precipitate is formed then sulfate ions are present in the sample.</li>
+                                </ol>  
+                                <figure class="image" style="display:table; border:0px solid #dee2e6; max-width:100%; clear:both; text-align: center;">
+                                    <img src="assets/img/poaig_chemistry_l37_img2.png" width="50%;" />
+                                </figure>
+                            </div>
+                            <div class="slideItem">
+                                <p>Halide test</p>
+                                <ol>
+                                    <li>Add a small amount of the sample to a test tube and add distilled water to make a solution.</li>
+                                    <li>Add an equal volume of dilute nitric acid to the test tube.</li>
+                                    <li>Add silver nitrate to the test tube.</li>
+                                    <li>If halide ions are present a precipitate will form.</li>
+                                </ol>
+                                <p>A white precipitate shows that chloride ions are present in the sample.</p>
+                                <p>A cream precipitate shows that bromide ions are present.</p>
+                                <p>A yellow precipitate shows that iodide ions are present.</p><br><br>
+                                <figure class="image" style="display:table; border:0px solid #dee2e6; max-width:100%; clear:both; text-align: center;">
+                                    <img src="assets/img/poaig_chemistry_l37_img3.png" width="70%;" />
+                                </figure>
+
+                            </div><br><br>
+                        </div>
+                        <button class="next disabled" disabled></button>
+                    </div>
+                    <div class="indicators">
+                        <div class="slideno"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resource" id="resource4">
+                <h2 id="r4">Student work 1</h2>
+               
+                <a class="downloadFile" href="#" file="assets/docs/IG_Chemistry_Lesson37_worksheet1.docx">Worksheet 1: Practical work</a>
+                <br /><br />
+            </div>
+
+
+
+
+            <div class="resource" id="resource5">
+                <h2>Student work 1</h2>
+                <h4 id="r5" class="indentLeft">Table: Tests for negative ions</h4>
+                <div class="slideshowContainer" id="r5a">
+                    <div class="fullScrnHeader"></div>
+                    <div class="expholder">
+                        <button class="expand"></button><button class="collapse"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="slider">
+                        <button class="prev disabled" disabled></button>
+                        <div class="slideItems">
+                            <div class="slideItem active">
+                                <table >
+                                    <tr bgcolor="#D3D3D3" >
+                                        <th style="text-align: left;">Ion</th>
+                                        <th style="text-align: left;">Test</th>
+                                        <th style="text-align: left;">Positive result</th>
+                                        <th style="text-align: left;">Product of reaction</th>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;width: 150px;height:80px">CO<sub>3</sub><sup>2</sup><sup>&minus;</sup></td>
+                                        <td style="text-align: left;width:150px;height:80px">Add dilute hydrochloric acid, as produced through limewater.</td>
+                                        <td style="text-align: left;width:150px;height:80px">fizzing, limewater goes cloudy (white precipitate)</td>
+                                        <td style="text-align: left;width:150px;height:80px">CO<sub>2</sub>, CaCO<sub>3</sub>&nbsp;(with limewater)</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">SO<sub>4</sub><sup>2</sup><sup>&minus;</sup></td>
+                                        <td style="text-align: left;">Add dilute hydrochloric acid, followed by barium chloride.</td>
+                                        <td style="text-align: left;">white precipitate</td>
+                                        <td style="text-align: left;">BaSO<sub>4</sub></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">Cl<sup>&minus;</sup></td>
+                                        <td style="text-align: left;">Add dilute hydrochloric acid, followed by silver nitrate solution.</td>
+                                        <td style="text-align: left;">white precipitate</td>
+                                        <td style="text-align: left;">AgCl</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">Br<sup>&minus;</sup></td>
+                                        <td style="text-align: left;">Add dilute hydrochloric acid, followed by silver nitrate solution.</td>
+                                        <td style="text-align: left;">cream precipitate</td>
+                                        <td style="text-align: left;">AgBr</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">l<sup>&minus;</sup></td>
+                                        <td style="text-align: left;">Add dilute hydrochloric acid, followed by silver nitrate solution.</td>
+                                        <td style="text-align: left;">yellow precipitate</td>
+                                        <td style="text-align: left;">AgI</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <button class="next disabled" disabled></button>
+                    </div>
+                    <div class="indicators">
+                        <div class="slideno"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+            <div class="resource" id="resource6">
+                <h2 class="indentLeft" id="r6">Teaching session 2</h2>
+                <div class="slideshowContainer" id="r6a">
+                    <div class="fullScrnHeader"></div>
+                    <div class="expholder">
+                        <button class="expand"></button><button class="collapse"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="slider">
+                        <button class="prev disabled" disabled></button>
+                        <div class="slideItems">
+                            <div class="slideItem active">
+                                <h2>Testing for water</h2>
+                                <ol>
+                                    <li>Add the unknown liquid to <b>anhydrous</b>  copper sulfate which is white.</li>
+                                    <li>Any sample that contains water will turn anhydrous copper sulfate blue.</li>
+                                </ol><br>
+                                <figure class="image"
+                                style="display:table; border:0px solid #dee2e6; max-width:100%; clear:both; margin: 0 auto;">
+                                <img src="assets/img/poaig_chemistry_l37_img4.png" width="300px;" />
+                                </figure>
+                            </div>
+                        </div>
+                        <button class="next disabled" disabled></button>
+                    </div>
+                    <div class="indicators">
+                        <div class="slideno"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resource" id="resource7">
+                <h2 id="r7">Student work 2</h2>
+                
+                <a class="downloadFile" href="#" file="assets/docs/IG_Chemistry_Lesson37_worksheet2.docx">Worksheet 2</a>
+            </div>
+
+            <div class="resource" id="resource8">
+                <h2 id="r8">End-of-lesson activity</h2>
+                <div class="slideshowContainer" id="r8a">
+                    <div class="fullScrnHeader"></div>
+                    <div class="expholder">
+                        <button class="expand"></button><button class="collapse"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="slider">
+                        <button class="prev disabled" disabled></button>
+                        <div class="slideItems">
+                            <div class="slideItem active">
+                                <h2>Practice question</h2>
+                                <p><strong>Exam-style question</strong></p>
+                                <p><strong>Unknown substance X</strong></p>
+                                <p>Substance X gives a lilac flame test result and produces a white precipitate when silver nitrate is added. Name
+                                    substance X.</p>
+                                <p><strong>Unknown substance Y</strong></p>
+                                <p>Substance Y does not give a colour during a flame test. When added to sodium hydroxide, a green precipitate is
+                                    produced. When tested with acid and limewater, the limewater was turned milky white by a gas. Name substance Y.</p>
+                            </div>
+                            <div class="slideItem">
+                                <p><strong>Answers</strong></p>
+                                <p>X: potassium chloride (lilac flame test &ndash; potassium, white precipitate with silver nitrate &ndash; chlorine)
+                                </p>
+                                <p>Y: iron carbonate (green precipitate &ndash; iron; limewater milky indicates carbon dioxide released from a
+                                    carbonate)</p>
+                            </div>
+                        </div>
+                        <button class="next disabled" disabled></button>
+                    </div>
+                    <div class="indicators">
+                        <div class="slideno"></div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="resource" id="resource9">
+                <h2 id="r9">Homework</h2>
+              
+                <a class="downloadFile" href="#" file="assets/docs/IG_Chemistry_Lesson37_Homework.docx">Homework sheet</a>
+            </div>
+
+            <div class="resource" id="resource10">
+                <h2 id="r10">Answers</h2>
+                <p>This document contains answers for all the worksheets in the lesson.</p>
+                <a class="downloadFile" href="#" file="assets/docs/IG_Chemistry_Lesson37_Answers.docx">Answer sheet</a>
+            </div>
+    </main>
+    </div>
+    <button type="button" class="btn bl" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <div class="fulscreenContent">
+        <div class="fulsrcsldshw">
+
+        </div>
+
+    </div>
+    <script src="../../js/script.js"></script>
+</body>
+
+</html>
