@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson Plans</title>
+    <script src="../../js/lib/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+    <script async="" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    <script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
+</head>
+
+<body class="p3 presentation">
+    <div class="mainContainer">
+        <div class="mode" id="topmodeswitch">
+            <p><strong><span class="modeText">Teaching</span><br>mode</strong></p>
+            <label class="switch">
+
+                <input type="checkbox" checked>
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <header class="headers">
+            <h1>
+                <span class="lNumber">Lesson 45 | Resources</span>
+                <span class="lname">Concentration Calculations</span>
+            </h1>
+        </header>
+        <main>
+            <section class="container toc">
+                <div class="mode">
+                    <div><span class="modeText">Planning</span> mode</div>
+                    <label class="switch">
+
+                        <input type="checkbox" checked>
+                        <span class="slider round"></span>
+                    </label>
+                    <div><span class="modeText">Teaching</span> mode</div>
+                </div>
+                <h1>Resources</h1>
+                <ul>
+                    <li>Worksheets will need to be printed for students in advance of the lesson.</li>
+                    <li>While all care is taken to ensure resource content is in line with cultural sensitivities,
+                        please be aware that it should be reviewed before sharing with students.</li>
+                </ul>
+                <h2>Student Book</h2>
+                <button type="button" class="btn yl sb" data-id="1">Student Book pages</button>
+                <h2>Starter</h2>
+                <button type="button" class="btn yl resr" data-id="r1">Slideshow: Learning objectives</button>
+                <button type="button" class="btn yl resr" data-id="r2">Slideshow: Key definitions</button>
+
+                <h2>Teaching session 1</h2>
+                <button type="button" class="btn yl resr" data-id="r3">Slideshow: Concentration</button>
+
+
+                <button type="button" class="btn yl resr" data-id="r4">Worksheet 1</button>
+
+                <h2>Teaching session 2</h2>
+                <button type="button" class="btn yl resr" data-id="r5">Slideshow: Reacting volumes</button>
+                <button type="button" class="btn yl resr" data-id="r6">Worksheet 2</button>
+
+                <h2>Challenge</h2>
+                <button type="button" class="btn yl resr" data-id="r7">Worksheet 3</button>
+
+                <h2>End-of-lesson activities</h2>
+                <button type="button" class="btn yl resr" data-id="r8">Exam-style
+                    question</button>
+
+                <h2>Homework</h2>
+                <button type="button" class="btn yl resr" data-id="r9">Homework sheet</button>
+
+                <h2>Alternative starter</h2>
+                <button type="button" class="btn yl resr" data-id="r10">Quick quiz</button>
+
+
+
+                <h2>Answers</h2>
+                <!---<button type="button" class="btn yl sb2" data-id="1">Student Book answers</button>--->
+                <button type="button" class="btn yl resr" data-id="r11">Answer sheet</button>
+
+            </section>
+
+            <h1 class="tgBanner">Resources</h1>
+            <div class="resource" id="resource1">
+                <h2 id="r1">Learning objectives</h2>
+                <div class="slideshowContainer" id="r1a">
+                    <div class="fullScrnHeader"></div>
+                    <div class="expholder">
+                        <button class="expand"></button><button class="collapse"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="slider">
+                        <button class="prev disabled" disabled></button>
+                        <div class="slideItems">
+                            <div class="slideItem active">
+                                <h2>Learning objectives</h2>
+                                <p>In this lesson, students will learn to:</p>
+                                <ul>
+                                    <li>state the meaning of the term &lsquo;concentration&rsquo;</li>
+                                    <li>calculate concentration in g/dm<sup>3</sup> and mol/dm<sup>3</sup></li>
+                                    <li>calculate amount of substance, volume and concentration (in
+                                        mol/dm<sup>3</sup>) of solution.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="next disabled" disabled></button>
+                    </div>
+                    <div class="indicators">
+                        <div class="slideno"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resource" id="resource2">
+                <h2 id="r2">Key definitions</h2>
+                <div class="slideshowContainer" id="r2a">
+                    <div class="fullScrnHeader"></div>
+                    <div class="expholder">
+                        <button class="expand"></button><button class="collapse"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="slider">
+                        <button class="prev disabled" disabled></button>
+                        <div class="slideItems">
+                            <div class="slideItem active">
+                                <h2>Key definitions</h2>
+                                <ul>
+                                    <li>mass concentration = \(\frac{\mathrm{mass}\;\mathrm{of}\;\mathrm
+                                        a\;\mathrm{solute}}{\mathrm{volume}\;\mathrm{of}\;\mathrm{solution}}(\mathrm
+                                        g/\mathrm{dm}^3)\)</li><br>
+                                    <li>molar concentration = \(\frac{\mathrm{moles}\;\mathrm{of}\;\mathrm
+                                        a\;\mathrm{solute}}{\mathrm{volume}\;\mathrm{of}\;\mathrm{solution}}(\mathrm
+                                        {mol}/\mathrm{dm}^3)\)
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="next disabled" disabled></button>
+                    </div>
+                    <div class="indicators">
+                        <div class="slideno"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resource" id="resource3">
+                <h2 id="r3">Teaching session 1</h2>
+                <div class="slideshowContainer" id="r3a">
+                    <div class="fullScrnHeader"></div>
+                    <div class="expholder">
+                        <button class="expand"></button><button class="collapse"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="slider">
+                        <button class="prev disabled" disabled></button>
+                        <div class="slideItems">
+                            <div class="slideItem active">
+                                <h2>Concentration</h2>
+                                <ul>
+                                    <li>A solution is made when a soluble substance, known as the solute, is dissolved
+                                        in a solvent, such as water.</li><br>
+
+                                    <figure class="image"
+                                        style="display:table; border:0px solid #dee2e6; max-width:100%; clear:both; margin:0 auto; text-align: center;">
+                                        <img src="assets/img/poaig_Chem_l45_img1.png" width="90%;" />
+                                    </figure>
+                                    <li>Increasing the proportion of the solvent will lead to the solution being more
+                                        dilute.</li>
+                                    <li>Increasing the proportion of solute will lead to a more concentrated solution,
+                                        until eventually it is saturated, and no more solute can dissolve.</li>
+                                </ul>
+                            </div>
+                            <div class="slideItem">
+                                <p><strong>Molar concentration</strong></p>
+                                <ul>
+                                    <li>Molar concentration is when 1 mole of solute dissolved in 1 dm<sup>3</sup> of
+                                        solution makes a solution with a concentration of 1 mol/dm<sup>3</sup>.
+                                    </li>
+                                </ul>
+
+                                <figure class="image"
+                                    style="display:table; border:0px solid #dee2e6; max-width:100%; clear:both; margin: 0 auto; text-align: center;">
+                                    <img src="assets/img/poaig_Chem_l45_img2.png" width="100%;" />
+                                </figure>
+                            </div>
+
+                            <div class="slideItem">
+                                <p><strong>Converting units</strong></p>
+                                <ul>
+                                    <li>Use the following technique to convert between cm<sup>3</sup> and
+                                        dm<sup>3</sup>.</li>
+                                    <figure class="image"
+                                        style="display:table; border:0px solid #dee2e6; max-width:100%; clear:both; margin-left: 30px; mix-blend-mode:multiply; ">
+                                        <img src="assets/img/poaig_Chem_l45_img3.png" width="100%;" />
+                                    </figure>
+                                    <li>Use the following technique to convert between mol/dm<sup>3</sup> and
+                                        g/dm<sup>3</sup>.</li>
+                                    <li>Use the <em>M</em><sub>r</sub> because mass = <em>M</em><sub>r</sub> &times; mol.
+                                    </li>
+                                    <figure class="image"
+                                        style="display:table; border:0px solid #dee2e6; max-width:100%; clear:both; margin-left: 20px;">
+                                        <img src="assets/img/poaig_Chem_l45_img4.png" width="100%;" />
+                                    </figure>
+                                </ul>
+
+                            </div>
+                            <div class="slideItem">
+                                <p><strong>Calculating concentrations</strong></p>
+                                <p>Calculate the concentration of the following solutions:</p>
+                                <ul>
+                                    <li>0.5 moles in 3 dm<sup>3</sup> of solution</li>
+                                    <li>3 moles in 200 cm<sup>3</sup> of solution</li>
+                                    <li>0.25 moles in 0.03 dm<sup>3</sup> of solution.</li>
+                                </ul>
+                            </div>
+
+                            <div class="slideItem">
+                                <p><strong>Calculating concentrations</strong></p>
+                                <p>Calculate the concentration of the following solutions:</p>
+                                <ul>
+                                    <li>0.5 moles in 3 dm<sup>3</sup> of solution<span style="margin-left: 200px;">
+                                            =<strong> 0.5 &divide; 3 =
+                                                0.167 </strong><strong>mol/dm<sup>3</sup></strong></span></li>
+                                    <li>3 moles in 200 cm<sup>3</sup> of solution<span style="margin-left: 200px;">=
+                                            <strong> 3 &divide; 0.2 =
+                                                15.0</strong> <strong>mol/dm<sup>3</sup></strong></span></li>
+                                    <li>0.25 moles in 0.03 dm<sup>3</sup> of solution <span style="margin-left: 135px;">=
+                                            <strong>0.25 &divide; 0.03 =
+                                                8.33</strong> <strong>mol/dm<sup>3</sup></strong></span></li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+                        <button class="next disabled" disabled></button>
+                    </div>
+                    <div class="indicators">
+                        <div class="slideno"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="resource" id="resource4">
+                <h2 id="r4">Student work 1</h2>
+                <a class="downloadFile" href="#" file="assets/docs/IG_Chemistry_Lesson45_Worksheet1.docx">Worksheet 1</a>
+                <br /><br />
+            </div>
+
+
+
+            <div class="resource" id="resource5">
+                <h2 id="r5">Teaching session 2</h2>
+                <div class="slideshowContainer" id="r5a">
+                    <div class="fullScrnHeader"></div>
+                    <div class="expholder">
+                        <button class="expand"></button><button class="collapse"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="slider">
+                        <button class="prev disabled" disabled></button>
+                        <div class="slideItems">
+                            <div class="slideItem active">
+                                <h2>Reacting volumes</h2>
+                                <p><strong>Worked example 1</strong></p>
+                                <p>What volume of 3.00 mol/dm<sup>3</sup> NaOH reacts fully with
+                                    25.0 cm<sup>3</sup> of 0.750&thinsp;mol/dm<sup>3</sup> H<sub>2</sub>SO<sub>4</sub>?
+                                </p>
+                                <p style="text-align: center;">2NaOH(aq) + H<sub>2</sub>SO<sub>4</sub>(aq) &rarr;
+                                    Na<sub>2</sub>SO<sub>4</sub>(aq) +
+                                    2H<sub>2</sub>O(l)</p>
+                            </div>
+                            <div class="slideItem">
+                                <p><strong>Worked example 1</strong></p>
+                                <p>What volume of 3.00 mol/dm<sup>3</sup> NaOH reacts fully with
+                                    25.0 cm<sup>3</sup> of 0.750&thinsp;mol/dm<sup>3</sup> H<sub>2</sub>SO<sub>4</sub>?
+                                </p>
+                                <p style="text-align: center;">2NaOH(aq) + H<sub>2</sub>SO<sub>4</sub>(aq) &rarr;
+                                    Na<sub>2</sub>SO<sub>4</sub>(aq) + 2H<sub>2</sub>O(l)</p>
+                                <p><strong><u>Answer</u></strong></p>
+                                <ul>
+                                    <li>The volume and concentration of H<sub>2</sub>SO<sub>4</sub> are present in the
+                                        question, so this is the starting point. <br /> The volume needs to be converted
+                                        into dm<sup>3</sup>.<br /><br /> Step 1: moles = concentration &times; volume
+                                    </li>
+                                </ul>
+                                <p style="margin-left: 100px;">&nbsp;moles of H<sub>2</sub>SO<sub>4</sub> = 0.750
+                                    &times; 0.025</p>
+                                <p style="margin-left: 350px;">= 0.01875 mol</p>
+                                <p>Note that this answer is not to 3 significant figures &ndash; until the final answer,
+                                    all answers should be kept as full calculator values.</p>
+                            </div>
+                            <div class="slideItem">
+
+                                <p><strong>Worked example 1</strong></p>
+                                <p>What volume of 3.00 mol/dm<sup>3</sup> NaOH reacts fully with
+                                    25.0 cm<sup>3</sup> of 0.750&thinsp;mol/dm<sup>3</sup> H<sub>2</sub>SO<sub>4</sub>?
+                                </p>
+                                <p style="text-align: center;">2NaOH(aq) + H<sub>2</sub>SO<sub>4</sub>(aq) &rarr;
+                                    Na<sub>2</sub>SO<sub>4</sub>(aq) +
+                                    2H<sub>2</sub>O(l)</p>
+                                <p><strong><u>Answer</u></strong></p>
+                                <ul>
+                                    <li>Now the moles of H<sub>2</sub>SO<sub>4</sub> are known, together with the
+                                        information about the ratio of NaOH : H<sub>2</sub>SO<sub>4</sub>, the moles of
+                                        NaOH can be calculated.<br /><br /> </li>
+                                </ul>
+                                <p>Step 2: &emsp;&emsp;&emsp;&emsp;2NaOH(aq) +
+                                    H<sub>2</sub>SO<sub>4</sub>(aq) &rarr; Na<sub>2</sub>SO<sub>4</sub>(aq) +
+                                    2H<sub>2</sub>O(l)</p>
+
+
+                                <p style="margin-left: 250px;">NaOH : H<sub>2</sub>SO<sub>4</sub></p>
+                                <p style="margin-left: 325px;">2 : 1</p>
+                                <p style="margin-left: 230px;">&nbsp;0.0375 : 0.01875</p>
+                                <figure class="image"
+                                    style="display:table; border:0px solid #dee2e6; max-width:100%; clear:both; margin-left: 250px;">
+                                    <img src="assets/img/poaig_Chem_l45_img5.png" width="200px;" />
+                                </figure>
+                                <p style="margin-left: 320px;"><strong>&times; 2</strong></p>
+                            </div>
+                            <div class="slideItem">
+
+                                <p><strong>Worked example 1</strong></p>
+                                <p>What volume of 3.00 mol/dm<sup>3</sup> NaOH reacts fully with
+                                    25.0 cm<sup>3</sup> of 0.750&thinsp;mol/dm<sup>3</sup>
+                                    H<sub>2</sub>SO<sub>4</sub>?</p>
+                                <p style="text-align: center;">2NaOH(aq) + H<sub>2</sub>SO<sub>4</sub>(aq) &rarr;
+                                    Na<sub>2</sub>SO<sub>4</sub>(aq) +
+                                    2H<sub>2</sub>O(l)</p>
+                                <p><strong><u>Answer</u></strong></p>
+                                <ul>
+                                    <li>Now the moles of NaOH are known, the volume of NaOH can be
+                                        determined.<br /><br /> </li>
+                                </ul>
+                                <p>Step 3: &emsp;&emsp;&emsp;&emsp;volume = moles &divide; concentration</p>
+                                <p style="margin-left: 100px;">volume of NaOH = 0.0375 &divide; 3.0</p>
+                                <p style="margin-left: 350px;">= 0.0125 dm<sup>3</sup></p>
+                                <p>The volume of H<sub>2</sub>SO<sub>4</sub> was given in cm<sup>3</sup>, so give your
+                                    final answer in cm<sup>3</sup> also:</p>
+                                <p style="margin-left: 108px;">volume of NaOH = 0.0125 dm<sup>3</sup> =
+                                    12.5&thinsp;cm<sup>3</sup></p>
+                            </div>
+
+                            <div class="slideItem">
+
+                                <p><strong>Worked example 2</strong></p>
+                                <p>50.0 cm<sup>3</sup> of 0.100 mol/dm<sup>3 </sup>hydrochloric acid
+                                    neutralises
+                                    25.0 cm<sup>3</sup> of barium hydroxide solution fully.</p>
+                                <p>Find the concentration of the barium hydroxide solution.</p>
+                                <p style="text-align: center;">Ba(OH)<sub>2</sub>(aq) + 2HCl(aq) &rarr;
+                                    BaCl<sub>2</sub>(aq) + 2H<sub>2</sub>O(l)
+                                </p>
+                                <p><strong><u>Answer</u></strong></p>
+
+                                <figure class="image"
+                                    style="display:table; border:0px solid #dee2e6; max-width:100%; clear:both; margin: 0 auto; text-align: center;">
+                                    <img src="assets/img/poaig_Chem_l45_img6.png" width="110%;" />
+                                </figure>
+                            </div>
+
+                        </div>
+                        <button class="next disabled" disabled></button>
+                    </div>
+                    <div class="indicators">
+                        <div class="slideno"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="resource" id="resource6">
+                <h2 id="r6">&emsp;</h2>
+
+                <a class="downloadFile" href="#" file="assets/docs/IG_Chemistry_Lesson45_Worksheet2.docx">Worksheet 2</a>
+
+
+            </div>
+
+
+
+
+            <div class="resource" id="resource7">
+                <h2 id="r7">Challenge</h2>
+
+                <a class="downloadFile" href="#" file="assets/docs/IG_Chemistry_Lesson45_Worksheet3.docx">Worksheet 3</a>
+
+                <!---<h4>Worksheet 3 answer sheet</h4>--->
+            </div>
+
+
+
+            <div class="resource" id="resource8">
+                <h2 id="r8">End-of-lesson activity</h2>
+                <div class="slideshowContainer" id="r8a">
+                    <div class="fullScrnHeader"></div>
+                    <div class="expholder">
+                        <button class="expand"></button><button class="collapse"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="slider">
+                        <button class="prev disabled" disabled></button>
+                        <div class="slideItems">
+                            <div class="slideItem active">
+                                <h4>Exam-style question</h4>
+                                <p>Calculate the concentration, in g/dm<sup>3</sup>, of a solution of nitric acid,
+                                    HNO<sub>3</sub>, with a concentration of 0.4 mol/dm<sup>3</sup>. <strong> [3
+                                        marks]</strong></p>
+                                <p><em>A</em><sub>r</sub> values: N = 14, H = 1, O = 16</p>
+                                <div class="hint qHint">
+                                    <button class="btn" type="button">
+                                        Part 1
+                                    </button>
+                                    <p class="notvisible"><em>M</em><sub>r</sub> HNO<sub>3</sub> = 1 + 14 + (3 &times;
+                                        16) = 63 <em> [1 mark]</em></p>
+                                </div>
+
+                                <div class="hint qHint">
+                                    <button class="btn" type="button">
+                                        Part 2
+                                    </button>
+                                    <p class="notvisible">concentration = 63 &times;
+                                        0.4&thinsp;mol/dm<sup>3</sup><em> [1 mark]</em></p>
+                                </div>
+
+                                <div class="hint qHint">
+                                    <button class="btn" type="button">
+                                        Part 3
+                                    </button>
+                                    <p class="notvisible">concentration = 25.2 g/dm<sup>3</sup><em> [1 mark]</em></p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="next disabled" disabled></button>
+                    </div>
+                    <div class="indicators">
+
+                    </div>
+                </div>
+            </div>
+            <div class="resource" id="resource9">
+                <h2 id="r9">Homework</h2>
+                <a class="downloadFile" href="#" file="assets/docs/IG_Chemistry_Lesson45_Homework.docx">Homework sheet</a>
+                <br /><br />
+            </div>
+
+            <div class="resource" id="resource10">
+                <h2 id="r10">Alternative starter</h2>
+                <div class="slideshowContainer" id="r10a">
+                    <div class="fullScrnHeader"></div>
+                    <div class="expholder">
+                        <button class="expand"></button><button class="collapse"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="slider">
+                        <button class="prev disabled" disabled></button>
+                        <div class="slideItems">
+                            <div class="slideItem active">
+
+                                <h4>Quick quiz</h4>
+
+                                <ol>
+                                    <li>What is the concentration, in g/dm<sup>3</sup>, of 100 cm<sup>3</sup> of a
+                                        solution containing 2 g of solute?</li>
+                                        <div class="hint qHint">
+                                            <button class="btn" type="button">
+                                                Answer
+                                            </button>
+                                            <p class="notvisible">
+                                              20 g/dm<sup>3</sup>
+                                            </p>
+                                        </div>
+                                    <li>What is the concentration, in g/dm<sup>3</sup>, of 500 cm<sup>3</sup> of a
+                                        solution containing 5 g of solute?</li>
+                                        <div class="hint qHint">
+                                            <button class="btn" type="button">
+                                                Answer
+                                            </button>
+                                            <p class="notvisible">
+                                          10 g/dm<sup>3</sup>
+                                            </p>
+                                        </div>
+                                    <li>What is the concentration, in g/dm<sup>3</sup>, of 250 cm<sup>3</sup> of a
+                                        solution containing 4 g of solute?</li>
+                                        <div class="hint qHint">
+                                            <button class="btn" type="button">
+                                                Answer
+                                            </button>
+                                            <p class="notvisible">
+                                               16 g/dm<sup>3</sup>
+                                            </p>
+                                        </div>
+                                </ol>   
+                            </div>
+                        </div>
+                        <button class="next disabled" disabled></button>
+                    </div>
+                    <div class="indicators">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="resource" id="resource11">
+                <h2 id="r11">Answers</h2>
+                <p>This document contains answers for all the worksheets in the lesson.</p>
+                <a class="downloadFile" href="#" file="assets/docs/IG_Chemistry_Lesson45_Answers.docx">Answer sheet</a>
+            </div>
+
+
+
+
+        </main>
+    </div>
+    <button type="button" class="btn bl" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <div class="fulscreenContent">
+        <div class="fulsrcsldshw">
+
+        </div>
+
+    </div>
+    <script src="../../js/script.js"></script>
+</body>
+
+</html>
