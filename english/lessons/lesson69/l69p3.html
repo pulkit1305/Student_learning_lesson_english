@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson Plans</title>
+    <script src="../../js/lib/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+    <script async="" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    <script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <style>
+    </style>
+</head>
+
+<body class="p3 presentation">
+    <div class="mainContainer">
+        <div class="mode" id="topmodeswitch">
+            <p><strong><span class="modeText">Teaching</span><br>mode</strong></p>
+            <label class="switch">
+
+                <input type="checkbox" checked>
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <header class="headers">
+            <h1>
+                <span class="lNumber">Lesson 69 | Resources</span>
+                <span class="lname">Creating Character</span>
+            </h1>
+        </header>
+        <main>
+            <section class="container toc">
+                <div class="mode">
+                    <div><span class="modeText">Planning</span> mode</div>
+                    <label class="switch">
+
+                        <input type="checkbox" checked>
+                        <span class="slider round"></span>
+                    </label>
+                    <div><span class="modeText">Teaching</span> mode</div>
+                </div>
+                <h1>Resources</h1>
+                <ul>
+                    <li>Worksheets will need to be printed for students in advance of the lesson.</li>
+                    <li>While all care is taken to ensure resource content is in line with cultural sensitivities,
+                        please be aware that it should be reviewed before sharing with students.</li>
+                </ul>
+                <h2>Student Book</h2>
+                <button type="button" class="btn yl sb" data-id="1">Student Book pages</button>
+                <h2>Starter</h2>
+                <button type="button" class="btn yl resr" data-id="r1">Slideshow: Learning objectives</button>
+                <button type="button" class="btn yl resr" data-id="r2">Slideshow: Character and inference</button>
+
+                <h2>End-of-lesson activity</h2>
+                <button type="button" class="btn yl resr" data-id="r3">Slideshow: Techniques of
+                    characterisation</button>
+
+                <h2>Homework</h2>
+                <button type="button" class="btn yl resr" data-id="r4">Homework sheet</button>
+
+                <h2>Additional activities</h2>
+                <button type="button" class="btn yl resr" data-id="r3">Slideshow: Techniques of
+                    characterisation</button>
+            </section>
+            <h1 class="tgBanner">Resources</h1>
+
+            <div class="resource" id="resource1">
+                <h2 class="indentLeft" id="r1">Learning objectives</h2>
+                <div class="slideshowContainer" id="r1a">
+                    <div class="fullScrnHeader"></div>
+                    <div class="expholder">
+                        <button class="expand"></button><button class="collapse"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="slider">
+                        <button class="prev disabled" disabled></button>
+                        <div class="slideItems">
+                            <div class="slideItem active">
+                                <h2>Learning objectives</h2>
+                                <p>In this lesson, students will learn to:</p>
+                                <ul>
+                                    <li>explore how writers create character.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="next disabled" disabled></button>
+                    </div>
+                    <div class="indicators">
+                        <div class="slideno"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resource" id="resource2">
+                <h2 class="indentLeft" id="r2">Starter</h2>
+                <div class="slideshowContainer" id="r2a">
+                    <div class="fullScrnHeader"></div>
+                    <div class="expholder">
+                        <button class="expand"></button><button class="collapse"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="slider">
+                        <button class="prev disabled" disabled></button>
+                        <div class="slideItems">
+                            <div class="slideItem active">
+                                <h2>Character and inference</h2>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td style="text-align: left;">
+                                                <p><strong>Character A</strong></p>
+                                            </td>
+                                            <td style="text-align: left;">
+                                                <p><strong>Character B</strong></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: left;">
+                                                <p>a packet of sweets</p>
+                                                <p>a few coins</p>
+                                                <p>two chess pieces</p>
+                                                <p>a broken pencil</p>
+                                                <p>some crumpled scraps of paper</p>
+                                            </td>
+                                            <td style="text-align: left;">
+                                                <p>a small mirror</p>
+                                                <p>a comb</p>
+                                                <p>sunglasses</p>
+                                                <p>an expensive phone</p>
+                                                <p>a USB memory stick</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <button class="next disabled" disabled></button>
+                    </div>
+                    <div class="indicators">
+                        <div class="slideno"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resource" id="resource3">
+                <h2 class="indentLeft" id="r3">End-of-lesson activity</h2>
+                <div class="slideshowContainer" id="r3a">
+                    <div class="fullScrnHeader"></div>
+                    <div class="expholder">
+                        <button class="expand"></button><button class="collapse"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="slider">
+                        <button class="prev disabled" disabled></button>
+                        <div class="slideItems">
+                            <div class="slideItem active">
+                                <h2>Techniques of characterisation</h2>
+                                <p>To create effective characters, writers can:</p>
+                                <ul>
+                                    <li>describe the character’s appearance</li>
+                                    <li>show what the character does</li>
+                                    <li>show what the character says</li>
+                                    <li>describe how the character says it</li>
+                                    <li>show other characters’ reactions to the character.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="next disabled" disabled></button>
+                    </div>
+                    <div class="indicators">
+                        <div class="slideno"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="resource" id="resource4">
+                <h2 id="r4">Homework</h2>
+                <a class="downloadFile" href="#" file="assets/docs/IG_English_Lesson69_Homework.docx">Homework
+                    sheet</a>
+            </div>
+        </main>
+    </div>
+    <button type="button" class="btn bl" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <div class="fulscreenContent">
+        <div class="fulsrcsldshw">
+
+        </div>
+
+    </div>
+    <script src="../../js/script.js"></script>
+</body>
+
+</html>

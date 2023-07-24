@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson Plans</title>
+    <script src="../../js/lib/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+    <script async="" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    <script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <style>
+        .paper-paper {
+            position: relative;
+            width: 600px;
+            height: 600px;
+        }
+
+        .paper-paper-p {
+            position: absolute;
+            width: 450px;
+        }
+    </style>
+</head>
+
+<body class="p3 presentation">
+    <div class="mainContainer">
+        <div class="mode" id="topmodeswitch">
+            <p><strong><span class="modeText">Teaching</span><br>mode</strong></p>
+            <label class="switch">
+
+                <input type="checkbox" checked>
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <header class="headers">
+            <h1>
+                <span class="lNumber">Lesson 70 | Resources</span>
+                <span class="lname">Narrative Voice</span>
+            </h1>
+        </header>
+        <main>
+            <section class="container toc">
+                <div class="mode">
+                    <div><span class="modeText">Planning</span> mode</div>
+                    <label class="switch">
+
+                        <input type="checkbox" checked>
+                        <span class="slider round"></span>
+                    </label>
+                    <div><span class="modeText">Teaching</span> mode</div>
+                </div>
+                <h1>Resources</h1>
+                <ul>
+                    <li>Worksheets will need to be printed for students in advance of the lesson.</li>
+                    <li>While all care is taken to ensure resource content is in line with cultural sensitivities,
+                        please be aware that it should be reviewed before sharing with students.</li>
+                    <br>
+                </ul>
+                <h2>Student Book</h2>
+                <button type="button" class="btn yl sb" data-id="1">Student Book
+                    pages</button>
+                <h2>Starter</h2>
+                <button type="button" class="btn yl resr" data-id="r1">Slideshow: Learning objectives</button>
+                <button type="button" class="btn yl resr" data-id="r2">Slideshow: Subject vocabulary</button>
+                <button type="button" class="btn yl resr" data-id="r3">Slideshow: General vocabulary</button>
+                <button type="button" class="btn yl resr" data-id="r4">Slideshow: The differences between first and
+                    third person</button>
+
+                <h2>Teaching session 1</h2>
+                <button type="button" class="btn yl resr" data-id="r4">Slideshow: The differences between first and
+                    third person</button>
+                <h2>End-of-lesson activity</h2>
+                <button type="button" class="btn yl resr" data-id="r5">Slideshow: Considering the first person</button>
+
+
+                <h2>Homework</h2>
+                <button type="button" class="btn yl resr" data-id="r6">Homework sheet</button>
+
+            </section>
+            <h1 class="tgBanner">Resources</h1>
+
+            <div class="resource" id="resource1">
+                <h2 class="indentLeft" id="r1">Learning objectives</h2>
+                <div class="slideshowContainer" id="r1a">
+                    <div class="fullScrnHeader"></div>
+                    <div class="expholder">
+                        <button class="expand"></button><button class="collapse"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="slider">
+                        <button class="prev disabled" disabled></button>
+                        <div class="slideItems">
+                            <div class="slideItem active">
+                                <h2>Learning objectives</h2>
+                                <p>In this lesson, students will learn to:</p>
+                                <ul>
+                                    <li> explore the impact of the writer’s choice of first- or third-person narration
+                                        in a text
+                                    </li>
+                                    <li>analyse a text written in the first person.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="next disabled" disabled></button>
+                    </div>
+                    <div class="indicators">
+                        <div class="slideno"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resource" id="resource2">
+                <h2 class="" id="r2">Key definitions</h2>
+
+                <div class="slideshowContainer" id="r2a">
+                    <div class="fullScrnHeader"></div>
+                    <div class="expholder">
+                        <button class="expand"></button><button class="collapse"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="slider">
+                        <button class="prev disabled" disabled></button>
+                        <div class="slideItems">
+                            <div class="slideItem active">
+                                <h2>Subject vocabulary</h2>
+                                <ul>
+                                    <li> <strong>first-person narrative</strong>: a narrative recounted by the speaker,
+                                        writer or narrator referring to themselves using the first-person pronoun ‘I’
+                                    </li>
+                                    <li><strong>third-person narrative</strong>: a narrative in which the speaker,
+                                        writer or narrator does not refer to themselves and all characters are
+                                        identified using the third person pronouns ’he’, ‘she’ or ‘they’
+                                    </li>
+                                    <li><strong>narrator</strong>: a character that tells the story in a novel, play,
+                                        poem or film
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="next disabled" disabled></button>
+                    </div>
+                    <div class="indicators">
+                        <div class="slideno"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resource" id="resource3">
+
+                <div class="slideshowContainer" id="r3a">
+                    <div class="fullScrnHeader"></div>
+                    <div class="expholder">
+                        <button class="expand"></button><button class="collapse"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="slider">
+                        <button class="prev disabled" disabled></button>
+                        <div class="slideItems">
+                            <div class="slideItem active">
+                                <h2>General vocabulary</h2>
+                                <ul>
+                                    <li><strong>wigwam</strong>: tent with a round structure or pointed roof</li>
+                                    <li><strong>grandeur</strong>: grandness
+                                    </li>
+                                    <li><strong>Georgian</strong>: British style of architecture during the period
+                                        1714–1811
+                                    </li>
+                                    <li><strong>archaeologists</strong>: scientists who study the past by looking at
+                                        historical objects and sites
+                                    </li>
+                                    <li><strong>unbiddable</strong>: will not be told what to do
+                                    </li>
+                                    <li><strong>oddly attenuated</strong>: strangely long and thin
+                                    </li>
+                                    <li><strong>mannequins</strong>: models or dummies
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <button class="next disabled" disabled></button>
+                    </div>
+                    <div class="indicators">
+                        <div class="slideno"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="resource" id="resource4">
+                <h2 class="" id="r4">Starter</h2>
+                <div class="slideshowContainer" id="r4a">
+                    <div class="fullScrnHeader"></div>
+                    <div class="expholder">
+                        <button class="expand"></button><button class="collapse"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="slider">
+                        <button class="prev disabled" disabled></button>
+                        <div class="slideItems">
+                            <div class="slideItem active">
+                                <h2>The differences between first and third person</h2>
+                                <div style="display: flex;">
+                                    <div style="display: inline-block;text-align: center;">
+                                        <p><strong>Extract A</strong></p>
+                                        <img src="assets/img/paper.png" alt="" class="paper-paper">
+                                        <p class="paper-paper-p" style="top: 270px; left: 100px;">
+                                            I heard the sound – the sound that had come to me a hundred times before in
+                                            my dreams. My heart raced, faster and faster, the harder I clenched my
+                                            fists.
+                                        </p>
+                                        <img src="assets/img/paper.png" alt="" class="paper-paper">
+                                        <p class="paper-paper-p" style="top: 880px; left: 100px;">
+                                            I knew what would happen next – and a shiver of terror crackled in the soles
+                                            of my feet, rose up through my legs to my stomach to the very tips of my
+                                            ears.
+                                        </p>
+
+
+                                    </div>
+                                    <div style="text-align: center;">
+                                        <p><strong>Extract B</strong></p>
+                                        <img src="assets/img/paper.png" alt="" class="paper-paper"
+                                            style="width: 530px;">
+                                        <p class="paper-paper-p" style="top: 270px; left: 680px;">
+                                            He heard the sound – the sound that had come to him a hundred times before
+                                            in his dreams. His heart raced, faster and faster, the harder he clenched
+                                            his fists.
+
+                                        </p>
+                                        <img src="assets/img/paper.png" alt="" class="paper-paper"
+                                            style="width: 530px;">
+                                        <p class="paper-paper-p" style="top: 880px; left: 650px;">
+                                            He knew what would happen next – and a shiver of terror crackled in the
+                                            soles of his feet, rose up through his legs to his stomach to the very tips
+                                            of his ears.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slideItem">
+                                <div style="display: flex;">
+                                    <div style="display: inline-block;text-align: center;">
+                                        <p><strong>Extract A</strong></p>
+                                        <img src="assets/img/paper.png" alt="" class="paper-paper">
+                                        <p class="paper-paper-p" style="top: 270px; left: 100px;">
+                                            I hear the sound – the sound that has come to me a hundred times before in
+                                            my dreams. My heart races, faster and faster, the harder I clench my fists.
+                                        </p>
+                                        <img src="assets/img/paper.png" alt="" class="paper-paper">
+                                        <p class="paper-paper-p" style="top: 880px; left: 100px;">
+                                            I know what will happen next – and a shiver of terror crackles in the soles
+                                            of my feet, rises up through my legs to my stomach to the very tips of my
+                                            ears.
+                                        </p>
+
+
+                                    </div>
+                                    <div style="text-align: center;">
+                                        <p><strong>Extract B</strong></p>
+                                        <img src="assets/img/paper.png" alt="" class="paper-paper">
+                                        <p class="paper-paper-p" style="top: 270px; left: 750px;">
+                                            He hears the sound – the sound that has come to him a hundred times before
+                                            in his dreams. His heart races, faster and faster, the harder he clenches
+                                            his fists.
+
+                                        </p>
+                                        <img src="assets/img/paper.png" alt="" class="paper-paper">
+                                        <p class="paper-paper-p" style="top: 880px; left: 750px;">
+                                            He knows what will happen next – and a shiver of terror crackles in the
+                                            soles of his feet, rises up through his legs to his stomach to the very tips
+                                            of his ears.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <!-- my code -->
+
+                            <!-- my code -->
+                        </div>
+                        <button class="next disabled" disabled></button>
+                    </div>
+                    <div class="indicators">
+                        <div class="slideno"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="resource" id="resource5">
+                <h2 class="" id="r5">End-of-lesson activity</h2>
+                <div class="slideshowContainer" id="r5a">
+                    <div class="fullScrnHeader"></div>
+                    <div class="expholder">
+                        <button class="expand"></button><button class="collapse"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="slider">
+                        <button class="prev disabled" disabled></button>
+                        <div class="slideItems">
+                            <div class="slideItem active">
+                                <h2>Considering the first person</h2>
+                                <div style="display: flex;">
+                                    <div style="display: inline-block;text-align: center;">
+                                        <p><strong>Situation A</strong></p>
+                                        <img src="assets/img/paper.png" alt="" class="paper-paper">
+                                        <p class="paper-paper-p" style="top: 270px; left: 60px;">
+                                            A friend tells you that her parents argue and, when they do, she goes and
+                                            sits in a tent in the garden.
+                                        </p>
+
+
+
+                                    </div>
+                                    <div style="text-align: center;">
+                                        <p><strong>Situation B</strong></p>
+                                        <img src="assets/img/paper.png" alt="" class="paper-paper">
+                                        <p class="paper-paper-p" style="top: 270px; right:20px">
+                                            A friend tells you that they have heard about this girl who, when her
+                                            parents argue, goes and sits in a tent in the garden.
+
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <button class="next disabled" disabled></button>
+                    </div>
+                    <div class="indicators">
+                        <div class="slideno"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="resource" id="resource6">
+                <h2 id="r6">Homework</h2>
+
+                <a class="downloadFile" href="#" file="assets/docs/IG_English_Lesson70_Homework.docx">Homework sheet</a>
+            </div>
+
+
+
+        </main>
+    </div>
+    <button type="button" class="btn bl" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <div class="fulscreenContent">
+        <div class="fulsrcsldshw">
+
+        </div>
+
+    </div>
+    <script src="../../js/script.js"></script>
+</body>
+
+</html>
